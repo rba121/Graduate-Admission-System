@@ -1,0 +1,77 @@
+Insert (Domestic Student Test Cases):--
+
+DomesticStudent d; //Normal case
+    d.set_FN("Amit");
+    d.set_LN("Sharma");
+    d.set_province("BC");
+    d.set_cgpa(3.20);
+    d.set_re(89);
+    dll->domesticpush(d);
+
+DomesticStudent d; //Corner Case
+    d.set_FN("Amit");
+    d.set_LN("Sharma");
+    d.set_province("BC");
+    d.set_cgpa(4.33);
+    d.set_re(100);
+    dll->domesticpush(d);
+
+DomesticStudent d; //Corner Case
+    d.set_FN("Amit");
+    d.set_LN("Sharma");
+    d.set_province("BC");
+    d.set_cgpa(2.75);
+    d.set_re(69);
+    dll->domesticpush(d);
+
+DomesticStudent d; //Illegal case
+    d.set_FN("Amit");
+    d.set_LN("Sharma");
+    d.set_province("BC");
+    d.set_cgpa(3.20);
+    d.set_re(101);
+    dll->domesticpush(d);
+
+Insert (International Student Test Cases)
+
+InternationalStudent i; //Normal case
+    i.set_FN("Peter");
+    i.set_LN("Titans");
+    i.set_country("Korea");
+    i.set_cgpa(3.20);
+    i.set_toefl(ToeflScore(23,25,23,27)); 
+
+InternationalStudent i; //Corner case
+    i.set_FN("Peter");
+    i.set_LN("Titans");
+    i.set_country("Korea");
+    i.set_cgpa(4.33);
+    i.set_toefl(ToeflScore(30,30,30,30)); 
+
+InternationalStudent i; //Corner case
+    i.set_FN("Peter");
+    i.set_LN("Titans");
+    i.set_country("Korea");
+    i.set_cgpa(2.65);
+    i.set_toefl(ToeflScore(20,20,20,20)); 
+
+InternationalStudent i; //Illegal case
+    i.set_FN("Peter");
+    i.set_LN("Titans");
+    i.set_country("Korea");
+    i.set_cgpa(2.65);
+    i.set_toefl(ToeflScore(25,31,27,20)); 
+
+Search (Domestic Test Case)
+
+dll->SearchbyGPA(2.85);
+dll->SearchbyGPA(4.33);
+dll->SearchbyGPA(4.35);
+
+
+
+
+
+	
+
+
