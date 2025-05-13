@@ -1,7 +1,7 @@
 # Graduate Student Admission System
 
 ## Overview
-This project is a simplified implementation of a graduate student admission system for SFU (Simon Fraser University) using Object-Oriented Programming with C++. The goal is to assess domestic and international student applications based on CGPA, research scores, and optional English language testing scores for international applicants.
+This project is a simplified implementation of a graduate student admission system using Object-Oriented Programming with C++. The goal is to assess domestic and international student applications based on CGPA, research scores, and optional English language testing scores for international applicants.
 
 ## Project Structure
 - **Main Components:**
